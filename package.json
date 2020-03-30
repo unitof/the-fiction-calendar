@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/unitof/the-fiction-calendar#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "del": "^5.1.0"
   }
 }
