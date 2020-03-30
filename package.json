@@ -1,0 +1,25 @@
+{
+  "name": "the-fiction-calendar",
+  "version": "0.0.1",
+  "description": "Real dates that fictional things happen. In books and stuff!",
+  "scripts": {
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "debug": "DEBUG=* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "unitof/the-fiction-calendar"
+  },
+  "author": {
+    "name": "Jacob Ford",
+    "email": "j@cobford.com",
+    "url": "https://jacobford.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/11ty/eleventy-base-blog/issues"
+  },
+  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "devDependencies": {}
+}
