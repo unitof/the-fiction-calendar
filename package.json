@@ -21,5 +21,7 @@
     "url": "https://github.com/11ty/eleventy-base-blog/issues"
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
 }
