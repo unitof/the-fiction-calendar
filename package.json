@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Real dates that fictional things happen. In books and stuff!",
   "scripts": {
+    "test": "jest",
     "build": "eleventy",
     "watch": "eleventy --watch",
     "debug": "DEBUG=* eleventy"
@@ -21,8 +22,12 @@
     "url": "https://github.com/unitof/the-fiction-calendar/issues"
   },
   "homepage": "https://github.com/unitof/the-fiction-calendar#readme",
+  "jest": {
+    "testMatch": ["**/tests/**/*.[jt]s?(x)"]
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "del": "^5.1.0"
+    "del": "^5.1.0",
+    "jest": "^25.2.4"
   }
 }
