@@ -3,9 +3,8 @@ const path = require('path')
 
 const eventsDir = path.join(__dirname, '../content/events')
 const eventFilenames = readdirSync(eventsDir)
-
-// ignore .gitkeep file (it is allowed)
-eventFilenames = eventFilenames.filter(filename => filename !== '.gitkeep')
+                       .filter(filename => filename !== '.gitkeep')
+                       // ignore .gitkeep file (it is allowed)
 
 describe.each(eventFilenames)('event filenames', filename => {
   test('must have format `YYYY-MM-DD event-slug.yaml`', () => {
