@@ -8,6 +8,8 @@ module.exports = (eleventyConfig) => {
   const dirToClean = outputDir + '/*'
   del(dirToClean)
 
+  eleventyConfig.addPassthroughCopy('content/img')
+
   return {
     dir: {
       input: 'content'

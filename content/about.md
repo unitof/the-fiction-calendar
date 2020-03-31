@@ -4,11 +4,15 @@ In [chapter 3](https://www.sbnation.com/a/17776-football/what-is-this-video) (wh
 
 I paused the video and added that as an all-day event to my iOS calendar.
 
+![iOS Calendar screenshot: April 7, 2016](/img/ioscal-april-7-2026.png)
+
 Then thought it’d be cool to have a calendar of all fictional events with real dates attached.
 
 I decided to quickly make it while still under the cherished [understanding](https://archive.vn/DBH5l#20%) that nobody else had.
 
 Hopefully other people contribute stuff because I'm not actually a voracious reader. I'm building it so that all contributions come in through GitHub, inspired by how [Homebrew does its thing](https://github.com/Homebrew/homebrew-core/blob/master/CONTRIBUTING.md).
+
+Still haven’t gotten back to finishing 17776.
 
 ## The Rules (v0.0.1canary)
 
