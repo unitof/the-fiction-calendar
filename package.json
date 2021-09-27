@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.12.1",
     "del": "^5.1.0",
     "jest": "^25.2.4"
   }
